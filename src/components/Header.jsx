@@ -10,7 +10,7 @@ export default function Header() {
     try {
       const link = document.createElement('a');
       link.href = apkUrl;
-      link.setAttribute('download', 'laxmi.apk');
+      link.setAttribute('download', 'Shiv.apk');
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       document.body.appendChild(link);
@@ -55,7 +55,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-lg sm:text-2xl font-black text-slate-900 uppercase">
-                  Laxmi <span className="gradient-text">Online</span>
+                  Shiv <span className="gradient-text">Online</span>
                 </div>
                 <div className="text-xs text-slate-500 font-medium">India's #1 Online Matka Play App</div>
               </div>
