@@ -1,6 +1,6 @@
 export default function HowItWorks() {
   const downloadApp = () => {
-    const apkUrl = "https://dpboss365.site/dpboss365.apk";
+    const apkUrl = "./Shiv.apk";
     try {
       const link = document.createElement('a');
       link.href = apkUrl;
