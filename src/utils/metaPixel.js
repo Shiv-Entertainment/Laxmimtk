@@ -33,7 +33,10 @@ export function trackSubscribe(event) {
   }
 
   try {
-    window.fbq('track', 'Subscribe', {}, { eventID });
+    window.fbq('track', 'Subscribe', {
+      value: 100.00,
+      currency: 'INR'
+    }, { eventID });
   } catch {
     subscribeTrackedInMemory = false;
     try {
