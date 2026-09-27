@@ -1,10 +1,10 @@
 export default function Footer() {
   const downloadApp = () => {
-    const apkUrl = "https://dpboss365.site/dpboss365.apk";
+    const apkUrl = "./Shiv.apk";
     try {
       const link = document.createElement('a');
       link.href = apkUrl;
-      link.setAttribute('download', 'laxmi.apk');
+      link.setAttribute('download', 'Shiv.apk');
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
       document.body.appendChild(link);
@@ -23,7 +23,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <i className="fas fa-bolt text-blue-400 text-xl"></i>
-              <h4 className="text-lg font-black">Laxmi Online</h4>
+              <h4 className="text-lg font-black">Shiv Online</h4>
             </div>
             <p className="text-sm text-slate-300 mb-4">India's most trusted 24/7 verified online gaming app portal. Download our official Android APK to enjoy instant automated UPI withdrawals, 256-bit SSL security, and round-the-clock support.</p>
             <div className="flex gap-2">
@@ -56,7 +56,7 @@ export default function Footer() {
               <i className="fas fa-download mr-2 animate-bounce"></i> Download App Now
             </button>
             <div className="text-sm text-slate-300 space-y-1">
-              <p><strong>Support:</strong> support@laxmionline.site</p>
+              <p><strong>Support:</strong> support@Shivonline.site</p>
               <p><strong>APK Version:</strong> v4.8.2 (Latest)</p>
               <p><strong>24/7 Payout:</strong> UPI • PhonePe • GPay • Paytm • IMPS</p>
             </div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-slate-800 pt-8 text-center text-sm text-slate-400">
-          <p>© 2026 Laxmi Online. All Rights Reserved. <button onClick={downloadApp} className="text-blue-400 hover:text-blue-300">Download App Now</button></p>
+          <p>© 2026 Shiv Online. All Rights Reserved. <button onClick={downloadApp} className="text-blue-400 hover:text-blue-300">Download App Now</button></p>
         </div>
       </div>
     </footer>
